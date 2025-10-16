@@ -1,0 +1,15 @@
+.head{
+/*     width: 906px;
+height: 72px; */
+opacity: 1;
+gap: 8px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-width: 1px;
+padding: 12px;
+margin-right: 10px;
+backdrop-filter: blur(20px);
+box-shadow: -1px 3px 7px 5px rgba(0, 0, 0, 0.1);
+
+
+}

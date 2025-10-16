@@ -1,0 +1,15 @@
+.item{
+    width: 346;
+height: 72;
+opacity: 1;
+gap: 8px;
+border-bottom: 1px solid var(--Stroke-01, rgba(238, 238, 238, 1));
+border-bottom-width: 1px;
+padding: 12px;
+border-radius: 12px;
+
+}
+.active-item{
+background: var(--Primary-Tint_02, rgba(235, 240, 255, 1));
+
+}

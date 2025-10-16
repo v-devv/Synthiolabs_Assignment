@@ -1,0 +1,41 @@
+.sidebar {
+  max-width: 362px;       /* sets max width */
+  max-height: 784px;      /* sets max height */
+  width: 100%;            /* allows it to scale down responsively */
+       /* optional: make it fill full viewport height */
+  transform: rotate(0deg); /* angle */
+  opacity: 1;              /* opacity */
+  overflow-y: auto;        /* scroll if content exceeds height */
+  transition: all 0.3s ease-out; /* optional smooth transitions */
+  
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.sidebar {
+  scrollbar-width: none; /* Firefox */
+}
+.sidebar-main {
+width: 1440;
+height: 831;
+opacity: 1;
+gap: 24px;
+padding-top: 10px;
+padding-bottom: 16px;
+
+}
+.chats{
+display: flex;
+align-items: center;
+justify-content: space-between;
+opacity: 1;
+padding: 12px 4px;
+
+}
+.chats p{
+  width: 64;
+height: 36;
+opacity: 1;
+font-weight: 600;
+
+}

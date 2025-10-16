@@ -1,0 +1,95 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* logo left, links middle? handled separately */
+  background-color: white;
+  position: relative;
+margin: 10px;
+opacity: 1;
+padding-top: 12px;
+padding-right: 32px;
+padding-bottom: 12px;
+padding-left: 32px;
+
+}
+
+/* Logo on left */
+.logo {
+  width: 142.083984375px;
+height: 32px;
+gap: 0.29px;
+opacity: 1;
+padding: 4.72px;
+
+}
+
+
+
+/* Centered links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;   /* absolutely center */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 504px;
+height: 50px;
+
+opacity: 1;
+border-radius: 999px;
+border-width: 2px;
+padding: 0 8px;
+background: rgba(255, 255, 255, 0.8);
+border: 2px solid rgba(255, 255, 255, 1);
+backdrop-filter: blur(20px);
+
+box-shadow: -1px 3px 7px 5px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between icon and text */
+  padding: 2px 6px;
+  cursor: pointer;
+  font-size: small;
+}
+
+.nav-icon {
+  width: 16px;  /* small icon size */
+  height: 16px;
+}
+.active {
+  width: 116px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  border-radius: 36px;
+  cursor: pointer;
+  color: white; /* text color */
+  font-weight: 500;
+
+  /* Blue gradient background */
+  background: linear-gradient(180deg, #013BDB 0%, #2C62F7 100%);
+
+  /* Optional blur effect if you want a subtle glass feel */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    -2px 2px 3px rgba(1,32,60,0.34),
+    0px 1px 9px 2px rgba(210,234,255,0.3) inset,
+    -1px 1px 3px rgba(1,59,219,0.4);
+}
+
+
